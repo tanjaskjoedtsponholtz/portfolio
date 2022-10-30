@@ -10,7 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Tanja Sjødt Sponholtz Portfolio</title>
   </head>
   <body>
     <header class="pt-8 pb-11">
@@ -20,55 +27,58 @@
           Mit navn er Tanja <br />
           Velkommen til min portfolio
         </h1>
-        <img class="" src="fotoportfolio.jpg" alt="" />
+        <img class="" src="fotoportfoliodone.png" alt="" />
       </div>
     </header>
     <main>
       <section class="second_section">
-        <div class="ml-7 mr-5 pt-8 pb-1">
-          <h1 class="text-xl font-medium">kompetencer</h1>
-        </div>
-        <div class="ml-7 mr-7">
-          <p>
-            Jeg har igennem multimediedesign uddannelsen lært at bruge
-            forskellige programmeringssprog og systemer. De fleste af de
-            hjemmesider jeg har lavet, har jeg kodet i HTML og CSS. Med tiden
-            har jeg lært at bruge JavaScript og det er kommet med ind på de
-            seneste hjemmesider. Derudover har jeg erfaring med CMS systemet
-            Wordpress.
-          </p>
-          <div class="pt-4 pb-4 pl-4">
-            <ul class="list-disc">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>WordPress</li>
-            </ul>
+        <div class="section_2 bg m-5 rounded-md pb-8">
+          <div class="ml-7 mr-5 pt-8 pb-1">
+            <h2 class="text-xl font-medium">kompetencer</h2>
           </div>
-        </div>
-        <div class="ml-7 mr-7">
-          <p>
-            Gennem min uddannelse har jeg fået en del erfaring med Adobe
-            creative cloud. Jeg har mest erfaring i Photoshop, Illustrator,
-            Adobe XD og InDesign, men jeg har også benyttet både Premiere Pro og
-            Adobe Audition. Derudover har jeg lidt erfaring med Figma, dette har
-            jeg brugt til at lave prototyper.
-          </p>
-          <div class="pt-4 pl-4">
-            <ul class="list-disc">
-              <li>Photoshop</li>
-              <li>Adobe XD</li>
-              <li>InDesign</li>
-              <li>Illustrator</li>
-              <li>Premiere Pro</li>
-              <li>Adobe Audition</li>
-            </ul>
+          <div class="ml-7 mr-7">
+            <p>
+              Jeg har igennem multimediedesign uddannelsen lært at bruge
+              forskellige programmeringssprog og systemer. De fleste af de
+              hjemmesider jeg har lavet, har jeg kodet i HTML og CSS. Med tiden
+              har jeg lært at bruge JavaScript og det er kommet med ind på de
+              seneste hjemmesider. Derudover har jeg erfaring med CMS systemet
+              Wordpress.
+            </p>
+            <div class="pt-4 pb-4 pl-4">
+              <ul class="list-disc">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>WordPress</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="ml-7 mr-7">
+            <p>
+              Gennem min uddannelse har jeg fået en del erfaring med Adobe
+              creative cloud. Jeg har mest erfaring i Photoshop, Illustrator,
+              Adobe XD og InDesign, men jeg har også benyttet både Premiere Pro
+              og Adobe Audition. Derudover har jeg lidt erfaring med Figma,
+              dette har jeg brugt til at lave prototyper.
+            </p>
+            <div class="pt-4 pl-4">
+              <ul class="list-disc">
+                <li>Photoshop</li>
+                <li>Adobe XD</li>
+                <li>InDesign</li>
+                <li>Illustrator</li>
+                <li>Premiere Pro</li>
+                <li>Adobe Audition</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
       <section class="third_section">
         <div class="ml-7 pt-9 pb-1">
-          <h1 class="text-xl font-bold">Hvem er jeg?</h1>
+          <h2 class="text-xl font-bold">Hvem er jeg?</h2>
         </div>
         <div class="ml-7 mr-7">
           <p>
@@ -85,31 +95,42 @@
       </section>
       <section class="fourth_section">
         <div class="ml-7 pt-9">
-          <h1 class="text-xl font-bold">Portfolio</h1>
+          <h2 class="pb-2 text-xl font-bold">Projekter</h2>
         </div>
-        <div class="ml-7 mr-7 pb-9">
-          <h2>Responsivt website</h2>
-          <a
-            class=""
-            href="https://tanjasponholtz.dk/kea/02_web/04_responsive/responsive_v2/"
-          >
+        <div class="wrapper">
+          <article>
             <img src="responsivtweb.png" alt="" />
-          </a>
+            <div class="hm" hover:hm>
+              <div>
+                <a
+                  href="https://tanjasponholtz.dk/kea/02_web/04_responsive/responsive_v2/"
+                  ><button class="hm" hover:hm>Go to project</button></a
+                >
+              </div>
+            </div>
+          </article>
         </div>
+
         <div class="ml-7 mr-7 pb-9">
-          <h2>2. semestereksamen</h2>
+          <button class="py-3 pr-3 pl-3">
+            <a href="https://tanjasponholtz.dk/kea/10_eksamen/normetica/">
+              <h3 class="font-medium">2. Semestereksamen ➔</h3>
+            </a>
+          </button>
           <a
             class=""
             href="https://tanjasponholtz.dk/kea/10_eksamen/normetica/"
           >
-            <img src="eksamen2semester.png" alt="" />
+            <img class="pt-2" src="eksamen2semester.png" alt="" />
           </a>
         </div>
         <div class="ml-7 mr-7 pb-9">
-          <h2>Webfeauture</h2>
-          <a class="" href="http://nicknadeemkaastrup.dk/kea/feature/">
-            <img src="webfeature.png" alt="" />
-          </a>
+          <button class="py-3 pr-3 pl-3">
+            <a href="http://nicknadeemkaastrup.dk/kea/feature/">
+              <h3 class="font-medium">Webfeauture ➔</h3>
+            </a>
+          </button>
+          <img class="pt-2" src="webfeature.png" alt="" />
         </div>
       </section>
 
@@ -144,8 +165,8 @@
         </div>
       </section>
     </main>
-    <footer class="bg-slate-200 pl-6 pb-8 pt-8 text-center">
-      <h3>Tanja Sponholtz</h3>
+    <footer class="pl-6 pb-8 pt-8 text-center">
+      <h2>Tanja Sponholtz</h2>
       <div>
         <p>©KEA student: Tanja Sponholtz - 2022</p>
       </div>
