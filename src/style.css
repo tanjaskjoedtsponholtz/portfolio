@@ -13,6 +13,7 @@ footer {
 
 button {
   background-color: #cfd8c9;
+  font-weight: 700;
 }
 
 .section_2 {
@@ -77,4 +78,57 @@ button {
   .hm:hover {
     opacity: 1;
   }
+}
+@media (max-width: 750px) {
+  .wrapper div {
+    transition: 0.5s ease;
+    opacity: 1;
+  }
+  .wrapper img {
+    transition: 0.5s ease;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .wrapper img:hover {
+    opacity: 1;
+  }
+  .wrapper article {
+    position: relative;
+  }
+  .wrapper article:hover img {
+    opacity: 1;
+  }
+  .wrapper article:hover .hm {
+    opacity: 1;
+  }
+  .hm {
+    transition: 0.5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hm:hover {
+    opacity: 1;
+  }
+}
+button {
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 4.2%;
+  min-height: 3.5rem;
+  min-width: 5.5rem;
+  margin-top: 3%;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #4f6a38;
+  color: black;
+  border-radius: 20px;
+  padding: 3.5%;
+  min-height: 4rem;
+  min-width: 5.5rem;
 }
