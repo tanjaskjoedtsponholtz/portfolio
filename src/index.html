@@ -19,24 +19,28 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Tanja Sjødt Sponholtz Portfolio</title>
   </head>
-  <body>
-    <header class="pt-8 pb-11">
-      <div class="flex flex-wrap items-center">
-        <h1 class="text-center text-4xl">
-          Hej, <br />
-          Mit navn er Tanja <br />
-          Velkommen til min portfolio
-        </h1>
-        <img class="" src="fotoportfoliodone.png" alt="" />
+  <body class="lg:mx-40">
+    <header class="pt-8 pb-11 lg:mx-16">
+      <div class="grid-cols-2 md:grid">
+        <div class="flex flex-wrap items-center">
+          <h1 class="text-center text-4xl">
+            Hej, <br />
+            Mit navn er Tanja <br />
+            Velkommen til min portfolio
+          </h1>
+        </div>
+        <div>
+          <img class="md:scale-150" src="fotoportfoliodone.png" alt="" />
+        </div>
       </div>
     </header>
     <main>
       <section class="second_section">
-        <div class="section_2 bg m-5 rounded-md pb-8">
-          <div class="ml-7 mr-5 pt-8 pb-1">
-            <h2 class="text-xl font-medium">kompetencer</h2>
-          </div>
+        <div class="section_2 bg pb- m-5 grid-cols-2 rounded-md md:grid">
           <div class="ml-7 mr-7">
+            <div class="ml-7 mr-5 pt-5 pb-1">
+              <h2 class="text-xl font-medium">kompetencer</h2>
+            </div>
             <p>
               Jeg har igennem multimediedesign uddannelsen lært at bruge
               forskellige programmeringssprog og systemer. De fleste af de
@@ -93,10 +97,10 @@
           </p>
         </div>
       </section>
-      <section class="fourth_section">
-        <div class="ml-7 pt-9">
-          <h2 class="pb-2 text-xl font-bold">Projekter</h2>
-        </div>
+      <div class="ml-7 pt-9">
+        <h2 class="pb-2 text-xl font-bold">Projekter</h2>
+      </div>
+      <section class="fourth_section grid-cols-2 grid-rows-2 md:grid">
         <div class="wrapper">
           <article>
             <img src="responsivtweb.png" alt="" />
@@ -180,7 +184,7 @@
         </div>
       </section>
     </main>
-    <footer class="pl-6 pb-8 pt-8 text-center">
+    <footer class="pl-6 pb-8 pt-8 text-center md:-mx-40">
       <h2>Tanja Sponholtz</h2>
       <div>
         <p>©KEA student: Tanja Sponholtz - 2022</p>
